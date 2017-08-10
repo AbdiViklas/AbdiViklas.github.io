@@ -1204,6 +1204,15 @@
 				color: #ffffff;
 			}
 
+			.poptrox-popup .popup-links {
+				padding: 0 1em;
+				word-spacing: 0.5em;
+			}
+			
+			.poptrox-popup .popup-links:not(:last-child) {
+				border-right: 2px solid rgba(125,125,125,0.8);
+			}
+
 		.poptrox-popup .loader {
 			-moz-animation: spinner 1s infinite linear !important;
 			-webkit-animation: spinner 1s infinite linear !important;
