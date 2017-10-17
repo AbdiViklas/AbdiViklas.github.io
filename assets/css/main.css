@@ -722,7 +722,8 @@
 		}
 
 		.icon > .label {
-			display: none;
+			/* display: none; */
+			padding-left: 0.5em;
 		}
 
 /* List */
@@ -778,7 +779,7 @@
 				}
 
 				ul.icons li .icon {
-					color: #505051;
+					color: #a0a0a1;
 				}
 
 					ul.icons li .icon:before {
